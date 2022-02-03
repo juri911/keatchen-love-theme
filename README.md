@@ -1,4 +1,5 @@
-Sitepackage for the project "keatchen-love"
+Template für "keatchen-love"
 ==============================================================
 
-Add some explanation here.
+Typo3 Extension "keatchen-love". 
+Template für die Webseite https://keatchen-love.de/.
