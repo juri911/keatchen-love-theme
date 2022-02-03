@@ -1,0 +1,4 @@
+#
+# BACKENDLAYOUTS
+#
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:keatchen_love/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
