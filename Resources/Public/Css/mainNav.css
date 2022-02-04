@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('googlefonts.css');
 
 .site-navbar-wrap {
   position: absolute;
@@ -6,6 +6,7 @@
   width: 100%;
   left: 0;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   background-color: white;
 }
 
@@ -51,7 +52,7 @@
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .site-navbar .site-navigation .site-menu>li {

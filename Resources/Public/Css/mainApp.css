@@ -24,8 +24,7 @@ Structure:
 
 
 @import url('textAnimation.css');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('googlefonts.css');
 
 /* 
 ###########################################################
@@ -73,7 +72,7 @@ body.offcanvas-menu:before {
 */
 .section {
   width: 100%;
-  background-image: url('../images/welcome-hero4.jpg');
+  background-image: url('../Images/welcome-hero4.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

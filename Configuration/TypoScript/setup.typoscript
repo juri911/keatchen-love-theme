@@ -144,7 +144,11 @@ page {
     }
 
     includeCSS {
-        
+        10 = EXT:keatchen_love/Resources/Public/Fonts/icomoon/style.css
+        20 = EXT:keatchen_love/Resources/Public/Css/bootstrap.min.css
+        30 = EXT:keatchen_love/Resources/Public/Css/mainNav.css
+        40 = EXT:keatchen_love/Resources/Public/Css/mainApp.css
+        50 = EXT:keatchen_love/Resources/Public/Css/all.min.css
     }
 
     includeJSLibs {
@@ -160,7 +164,13 @@ page {
     }
 
     includeJSFooter {
-        
+        10 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/jquery-3.6.0.min.js
+        20 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/popper.min.js
+        30 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/bootstrap.min.js
+        40 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/jquery.sticky.js
+        50 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/mainNav.js
+        60 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/mainApp.js
+
     }
 }
 
