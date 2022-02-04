@@ -1,7 +1,7 @@
 ######################
 #### DEPENDENCIES ####
 ######################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
 
 
 ################
@@ -16,7 +16,7 @@
 page = PAGE
 page {
     typeNum = 0
-    shortcutIcon = EXT:keatchen_love/Resources/Public/Icons/favicon.ico
+    shortcutIcon = EXT:keatchen_love/Resources/Public/Icons/favicon-kl.ico
 
     10 = FLUIDTEMPLATE
     10 {
@@ -144,7 +144,7 @@ page {
     }
 
     includeCSS {
-        keatchen_love_layout = EXT:keatchen_love/Resources/Public/Css/layout.min.css
+        
     }
 
     includeJSLibs {
@@ -160,7 +160,7 @@ page {
     }
 
     includeJSFooter {
-        keatchen_love_scripts = EXT:keatchen_love/Resources/Public/JavaScript/Dist/scripts.js
+        
     }
 }
 
