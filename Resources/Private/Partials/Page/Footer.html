@@ -3,7 +3,7 @@
     <div class="container pt-5">
         <div class="row">
             <div class="col-6 col-xl-3 col-md-3 col-sm-6 col-xs-6">
-                <h5>Foodblog</h5>
+                <f:cObject typoscriptObjectPath="lib.footerLinkerInhalt" />
                 <ul class="list-unstyled">
                     <f:for each="{blogNav}" as="footerBlogNav">
                         <li><a href="{footerBlogNav.link}" title="{footerBlogNav.title}">{footerBlogNav.title}</a></li>      
@@ -11,7 +11,7 @@
                   </ul>
             </div>
             <div class="col-6 col-xl-3 col-md-3 col-sm-6 col-xs-6">
-                <h5>Service</h5>
+                <f:cObject typoscriptObjectPath="lib.footerMitteInhalt" />
                 <ul class="list-unstyled">
                     <f:for each="{serviceNav}" as="footerServiceNav">
                         <li><a href="{footerServiceNav.link}" title="{footerServiceNav.title}">{footerServiceNav.title}</a></li>      
@@ -19,11 +19,13 @@
                   </ul>
             </div>
             <div class="col-12 col-xl-6 col-md-6 col-sm-12 col-xs-12">
-                <h5>Newsletter</h5>
+                <f:cObject typoscriptObjectPath="lib.footerRechterInhalt" />
             </div>
         </div>
         <div class="row py-2">
-            <div class="col-12t text-center">&copy; Cooking with Jurik 2021</div>
+            <div class="col-12">
+                <f:cObject typoscriptObjectPath="lib.footerUntenInhalt" />
+            </div>
         </div>
     </div>
 </footer>

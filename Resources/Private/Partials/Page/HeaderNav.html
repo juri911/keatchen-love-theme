@@ -17,12 +17,14 @@
         <div class="container py-3">
             <div class="row align-items-center">
                 <div class="col-6">
-                    <div class="d-flex me-auto">
+                    <div class="d-flex align-items-center me-4 ">
                         <!-- Top Email -->
-                        <a href="#" class="d-flex align-items-center me-4">
-                            <i class="far fa-envelope fa-lg me-2"></i>
-                            <span class="d-none d-md-inline-block">info@domain.com</span>
-                        </a>
+                        <f:format.stripTags allowedTags="<a><span><i>">
+                        <i class="far fa-envelope fa-lg me-2"></i>
+                        <span class="d-none d-md-inline-block">
+                                <f:cObject typoscriptObjectPath="lib.emailHeader" />
+                        </span>
+                    </f:format.stripTags>
                         <!-- Top Email End -->
                         <!-- Top Tel -->
                         <!--

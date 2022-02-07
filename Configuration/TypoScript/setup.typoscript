@@ -221,6 +221,8 @@ config {
     index_externals = 1
     index_metatags = 1
     headerComment = {$config.headerComment}
+    spamProtectEmailAddresses = 1
+
 
     // Disable Image Upscaling
     noScaleUp = 1
@@ -231,3 +233,22 @@ config {
     concatenateJs = 0
     concatenateCss = 0
 }
+
+
+ lib.footerLinkerInhalt < styles.content.get
+ lib.footerLinkerInhalt.select.pidInList = 23
+
+ lib.footerMitteInhalt < styles.content.get
+ lib.footerMitteInhalt.select.pidInList = 23
+ lib.footerMitteInhalt.select.where = colPos = 1
+
+ lib.footerRechterInhalt < styles.content.get
+ lib.footerRechterInhalt.select.pidInList = 23
+ lib.footerRechterInhalt.select.where = colPos = 2
+
+ lib.footerUntenInhalt < styles.content.get
+ lib.footerUntenInhalt.select.pidInList = 23
+ lib.footerUntenInhalt.select.where = colPos = 3
+
+ lib.emailHeader < styles.content.get
+ lib.emailHeader.select.pidInList = 26
