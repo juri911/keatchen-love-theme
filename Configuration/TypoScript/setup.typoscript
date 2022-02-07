@@ -69,7 +69,27 @@ page {
                 levels = 2
                 includeSpacer = 1
                 as = mainnavigation
+                titleField = nav_title // title
             }
+
+            30 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+            30 {
+                as = blogNav
+                special = directory
+                special.value = 16
+                titleField = nav_title // title
+                levels = 1
+            }
+
+            40 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+            40 {
+                as = serviceNav
+                special = directory
+                special.value = 17
+                titleField = nav_title // title
+                levels = 1
+            }
+
         }
     }
 
