@@ -251,5 +251,40 @@ config {
  lib.footerUntenInhalt.select.pidInList = 23
  lib.footerUntenInhalt.select.where = colPos = 3
 
+
+
  lib.emailHeader < styles.content.get
  lib.emailHeader.select.pidInList = 26
+
+
+
+ lib.headerIcons01 < styles.content.get
+ lib.headerIcons01.select.pidInList = 31
+
+ lib.headerIcons02 < styles.content.get
+ lib.headerIcons02.select.pidInList = 31
+ lib.headerIcons02.select.where = colPos = 1
+
+ lib.headerIcons03 < styles.content.get
+ lib.headerIcons03.select.pidInList = 31
+ lib.headerIcons03.select.where = colPos = 2
+
+ lib.headerIcons04 < styles.content.get
+ lib.headerIcons04.select.pidInList = 31
+ lib.headerIcons04.select.where = colPos = 3
+
+
+ lib.mobileNavIcons01 < styles.content.get
+ lib.mobileNavIcons01.select.pidInList = 30
+ lib.mobileNavIcons02 < styles.content.get
+ 
+ lib.mobileNavIcons02.select.pidInList = 30
+ lib.mobileNavIcons02.select.where = colPos = 1
+
+ lib.mobileNavIcons03 < styles.content.get
+ lib.mobileNavIcons03.select.pidInList = 30
+ lib.mobileNavIcons03.select.where = colPos = 2
+
+ lib.mobileNavIcons04 < styles.content.get
+ lib.mobileNavIcons04.select.pidInList = 30
+ lib.mobileNavIcons04.select.where = colPos = 3

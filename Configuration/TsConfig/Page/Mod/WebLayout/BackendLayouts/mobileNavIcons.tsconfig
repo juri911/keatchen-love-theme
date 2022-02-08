@@ -1,0 +1,33 @@
+mod.web_layout.BackendLayouts {
+  mobileNavIcons {
+    title = Mobile Nav Icons
+    config {
+      backend_layout {
+        colCount = 4
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Social01
+                colPos = 0
+              }
+              2 {
+                name = Social02
+                colPos = 1
+              }
+              3 {
+                name = Social03
+                colPos = 2
+              }
+              4 {
+                name = Social04
+                colPos = 3
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
