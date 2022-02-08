@@ -187,9 +187,10 @@ page {
         10 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/jquery-3.6.0.min.js
         20 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/popper.min.js
         30 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/bootstrap.min.js
-        40 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/jquery.sticky.js
-        50 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/mainNav.js
-        60 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/mainApp.js
+        40 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/bootstrap.bundle.min.js
+        50 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/jquery.sticky.js
+        60 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/mainNav.js
+        70 = EXT:keatchen_love/Resources/Public/JavaScript/Dist/mainApp.js
 
     }
 }
